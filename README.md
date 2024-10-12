@@ -1,8 +1,10 @@
-# React + Vite
+# Layout Responsivo Personalizado em React com Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um **layout totalmente responsivo** construído com **React** e **Tailwind CSS**. Ele inclui seções comuns, como cabeçalho, seção hero, navegação e áreas de conteúdo, tornando-o ideal para diversos tipos de sites ou aplicações.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Design Responsivo**: O layout é totalmente responsivo, garantindo uma experiência fluida em dispositivos desktop e móveis.
+- **Componentes React**: Todas as seções são componentes React modulares para melhor reutilização de código e estrutura.
+- **Estilização com Tailwind CSS**: Abordagem de estilização baseada em utilitários usando Tailwind CSS para desenvolvimento rápido de interfaces.
+- **Seções Dinâmicas**: O layout inclui seções dinâmicas com funções reaproveitadas 
