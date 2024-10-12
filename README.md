@@ -1,6 +1,6 @@
 # Layout Responsivo Personalizado em React com Tailwind CSS
 
-Este projeto é um **layout totalmente responsivo** construído com **React** e **Tailwind CSS**. Ele inclui seções comuns, como cabeçalho, seção hero, navegação e áreas de conteúdo, tornando-o ideal para diversos tipos de sites ou aplicações.
+Este projeto é um **layout totalmente responsivo** construído com **React** e **Tailwind CSS**. 
 
 ## Funcionalidades
 
