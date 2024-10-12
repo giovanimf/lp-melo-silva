@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination{
+    margin-top: 20px;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #8C27034D;; 
+    opacity: 1; 
+    border-radius: 50%; 
+    transition: background-color 0.3s ease;
+}
+  
+.swiper-pagination-bullet-active {
+    background-color: #8C2703; 
+    transform: scale(1.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+  
+.swiper-pagination-bullet:hover {
+    background-color: #8C2703; 
+}
+
+@layer utilities {
+    @keyframes scroll-right {
+    0% {
+        transform: translateX(50%); /* Começa do meio da tela */
+    }
+    100% {
+        transform: translateX(-100%); /* Sai pela esquerda */
+    }
+    }
+
+    @keyframes scroll-left {
+    0% {
+        transform: translateX(-50%); /* Começa do meio da tela */
+    }
+    100% {
+        transform: translateX(100%); /* Sai pela direita */
+    }
+    }
+
+    .animate-scroll-right {
+        animation: scroll-right 30s linear infinite;
+    }
+
+    .animate-scroll-left {
+        animation: scroll-left 30s linear infinite;
+    }
+}
